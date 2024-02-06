@@ -1,0 +1,22 @@
+esphome:
+  name: days-since-incident
+
+esp32:
+  board: nodemcu-32s
+  framework:
+    type: arduino
+
+# Enable logging
+logger:
+
+wifi:
+  ssid: "WIFI"
+  password: "PASSWORD"
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "DSI"
+    password: "u0fz9T3yYqmn"
+
+captive_portal:
+    
